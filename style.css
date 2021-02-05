@@ -77,33 +77,40 @@ img {
 @media screen and (max-width: 420px) {
   * {
     margin: 0;
-    }
+    padding: 0;
+    box-sizing: border-box;
+  }
   body {
     font-size: 12px
   }
   .container {
-    padding: 0 10px;
+    padding:10px;
+  }
+  .row {
+    width: 100%;
+    margin-top: 25px;
   }
   h1 {
-    width: 100vw;
+    width: 100%;
   }
   img {
     height: 100px;
+    margin-top: 25px;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 100vw;
+    width: 100%;
     float: none;
   }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float: none;
-    width: 100vw;
+    width: 100%;
   }
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: 100vw;
-    margin-top: 80px;
+    width: 100%;
+    margin-top: 0px;
 }
